@@ -1,0 +1,38 @@
+{
+  "extends": "@walless/tsconfig/application.json",	
+	"include": [
+		"index*.js",
+		"src"
+	],
+	"exclude": [
+		"node_modules"
+	],
+	"compilerOptions": {
+		"module": "ESNext",
+		"lib": [
+			"DOM",
+			"ES2015"
+		],
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"baseUrl": ".",
+		"paths": {
+			"components/*": [
+				"./src/components/*"
+			],
+			"stacks/*": [
+				"./src/stacks/*"
+			],
+			"screens/*": [
+				"./src/screens/*"
+			],
+			"utils/*": [
+				"./src/utils/*"
+			],
+			"state/*": [
+				"./src/state/*"
+			]
+		}
+	}
+} 

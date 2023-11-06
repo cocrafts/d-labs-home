@@ -1,0 +1,28 @@
+{
+  "name": "@dlabs/home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "raf": "^3.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native-reanimated": "^3.5.4",
+    "react-native-svg": "^13.14.0",
+    "react-native-web": "^0.19.9",
+    "setimmediate": "^1.0.5",
+    "valtio": "^1.12.0"
+  },
+  "devDependencies": {
+    "@walless/eslint-config": "^0.0.7",
+    "@walless/tsconfig": "^0.0.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "react-native": "^0.72.6"
+  }
+}
