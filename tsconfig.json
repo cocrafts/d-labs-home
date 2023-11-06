@@ -1,38 +1,29 @@
 {
-  "extends": "@walless/tsconfig/application.json",	
-	"include": [
-		"index*.js",
-		"src"
-	],
-	"exclude": [
-		"node_modules"
-	],
-	"compilerOptions": {
-		"module": "ESNext",
-		"lib": [
-			"DOM",
-			"ES2015"
-		],
-		"typeRoots": [
-			"node_modules/@types"
-		],
-		"baseUrl": ".",
-		"paths": {
-			"components/*": [
-				"./src/components/*"
-			],
-			"stacks/*": [
-				"./src/stacks/*"
-			],
-			"screens/*": [
-				"./src/screens/*"
-			],
-			"utils/*": [
-				"./src/utils/*"
-			],
-			"state/*": [
-				"./src/state/*"
-			]
-		}
-	}
+  "extends": "@walless/tsconfig/next.json",	
+  "include": [
+    "next-env.d.ts",
+		"global.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components/*": [
+        "./src/components/*"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ],
+      "utils/*": [
+        "./src/utils/*"
+      ],
+      "state/*": [
+        "./src/state/*"
+      ]
+    }
+  }
 } 
