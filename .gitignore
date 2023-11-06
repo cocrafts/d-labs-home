@@ -1,6 +1,11 @@
 .next
+.open-next
+
 .yarn
 .DS_Store
+
+.sst
+cdk.context.json
 
 node_modules
 metacraft
